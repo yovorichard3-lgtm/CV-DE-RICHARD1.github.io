@@ -62,6 +62,6 @@ body{
 img {
     font-size: 25px;
     background-color: skyblue;
-    border-radius: 10px;
+    border-radius: 10px 30px 0px 90px;
     padding: 100px;
 }
