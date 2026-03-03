@@ -56,3 +56,6 @@ h1{
 }
 li{font-family: 'Courier New', Courier, monospace;}
 h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+body{
+  text-align: center;
+}
