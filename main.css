@@ -6,8 +6,8 @@ p {color:black}
 li  {color :black}
 ul  {color:black}
 button {
-  background-color: #4CAF50; /* vert */
-  color: white; /* texte blanc */
+  background-color: #000 }; /* vert */
+  {color: white}; /* texte blanc */
   padding: 10px 20px; /* espace autour du texte */
   border: none; /* supprime le contour par défaut */
   border-radius: 5px; /* coins arrondis */
