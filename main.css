@@ -60,6 +60,6 @@ body{
   text-align: center;
 }
 img {
-  display: block;
-  margin: auto;
+  border-radius: 1Opx;
+  border: 2px solid black;
 }
