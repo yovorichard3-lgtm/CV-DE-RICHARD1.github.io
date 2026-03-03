@@ -1,9 +1,9 @@
-body {background-color: beige;color:#000;}
+body {background-color:white;color:#000;}
 h1 {
     color: #000;
 }
 p {color:black}
-li  {color :violet}
+li  {color :black}
 ul  {color:black}
 button {
   background-color: #4CAF50; /* vert */
