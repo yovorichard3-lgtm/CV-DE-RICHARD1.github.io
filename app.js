@@ -6,6 +6,11 @@ function applyTheme(theme) {
 
  
 
+
+
+
+
+
 (function init(){
 
     const savedTheme = localStorage.getItem("theme")
