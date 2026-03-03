@@ -11,7 +11,7 @@
 
 }
 
-button {background-color: blue;}
+
 
 
 
@@ -29,6 +29,7 @@ button {
   border: none; 
   border-radius: 10px;
   cursor: pointer;   
+  background-color: blue;
 }
 img {
   border-radius: 10px;
