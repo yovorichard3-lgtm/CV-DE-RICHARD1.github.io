@@ -4,7 +4,7 @@ function applyTheme(theme) {
     btnTheme.textContent = theme === "light" ? "obscure" : "claire"
 }
 
-
+ <button class="joinBtn">Confirm</button>
 
 (function init(){
 
