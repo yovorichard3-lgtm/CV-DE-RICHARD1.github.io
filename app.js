@@ -4,8 +4,19 @@ function applyTheme(theme) {
     btnTheme.textContent = theme === "light" ? "obscure" : "claire"
 }
 
-document.querySelector("#btn-theme").addEventListener("click", () => {
-    const isLight = document.documentElement.classList.contains("theme-light")
-    const next = isLight ? "dark" : "light"
-    applyTheme(next)
-})
+
+
+(function init(){
+
+    const savedTheme = localStorage.getItem("theme")
+
+    applyTheme(savedTheme)
+
+    document.querySelector("#btn-theme").addEventListener("click", () => {
+        const isLight = document.documentElement.classList.contains("theme-light")
+        const next = isLight ? "dark" : "light"
+        localStorage.setItem("theme", next);
+        applyTheme(next)
+    })
+
+}) ( )
