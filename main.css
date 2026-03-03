@@ -14,7 +14,7 @@
   --btb:rgb(179, 12, 137);
 }
 
-
+font-family : 'Roboto', sans-serif;
 
 
 
@@ -47,3 +47,5 @@ img {
   border-radius: 10px;
   border: 2px solid rgba(9, 7, 7, 0.294); 
 }
+
+
