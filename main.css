@@ -59,3 +59,7 @@ h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 body{
   text-align: center;
 }
+img {
+  display: block;
+  margin: auto;
+}
