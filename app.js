@@ -46,7 +46,7 @@ function applyTheme(theme) {
     applyTheme(savedTheme);
 
     const savedLang = localStorage.getItem("lang") 
-    applyLang(savedLang);
+    if (savedLang) applyLang(savedLang);
 
     document.querySelector("#btn-theme").addEventListener("click", () => {
         const isLight = document.documentElement.classList.contains("theme-light")
