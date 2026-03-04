@@ -11,17 +11,7 @@ const translations ={
     en:{
         desc: "PROFESSIONNAL EXPERIENCES",
     },
-    fr:{
-        desc:"2023 Aide ponctuelle",
-    },
-    en:{
-        desc:"2023 One-off assistance",
-    },
-
-
 }
-
-
 
 
 
