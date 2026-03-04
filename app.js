@@ -13,7 +13,7 @@ function applyTheme(theme) {
 
 (function init(){
 
-    const savedTheme = localStorage.getItem("theme") ="light"
+    const savedTheme = localStorage.getItem("theme") 
 
     applyTheme(savedTheme);
 
