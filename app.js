@@ -12,10 +12,10 @@ const translations ={
         desc: "PROFESSIONNAL EXPERIENCES",
     },
     fr:{
-        trad:"2023 Aide ponctuelle",
+        desc:"2023 Aide ponctuelle",
     },
     en:{
-        trad:"2023 One-off assistance",
+        desc:"2023 One-off assistance",
     },
 
 
