@@ -6,7 +6,36 @@ function applyTheme(theme) {
     lucide.createIcons(); 
 }
  
+// Traductions
+const translations = {
+  fr: {
+    title: "Bienvenue sur mon site",
+    desc: "Ceci est un exemple en français"
+  },
+  en: {
+    title: "Welcome to my website",
+    desc: "This is an example in English"
+  }
+}
 
+// Fonction pour changer la langue
+function setLang(lang) {
+  localStorage.setItem("lang", lang)
+  applyLang(lang)
+}
+
+// Appliquer la langue
+function applyLang(lang) {
+  document.getElementById("title").textContent =
+    translations[lang].title
+
+  document.getElementById("desc").textContent =
+    translations[lang].desc
+}
+
+// Au chargement de la page
+const savedLang = localStorage.getItem("lang") || "fr"
+applyLang(savedLang)
 
 
 
