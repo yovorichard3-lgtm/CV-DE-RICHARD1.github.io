@@ -1,17 +1,17 @@
 :root{
-  --bg:white;
-  --text:black;
-  --btn:black;
-  --btb:rgb(179, 12, 137);
-  --btnbg:rgb(12, 208, 208);
-
-}
-:root.theme-light{
   --bg:black;
   --text:white;
   --btn:white;
   --btnbg:rgb(12, 208, 208);
   --btb:rgb(99, 10, 76);
+
+}
+:root.theme-light{
+  --bg:white;
+  --text:black;
+  --btn:black;
+  --btb:rgb(179, 12, 137);
+  --btnbg:rgb(12, 208, 208);
 }
 
 
