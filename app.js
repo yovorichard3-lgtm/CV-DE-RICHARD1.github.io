@@ -5,15 +5,29 @@ function applyTheme(theme) {
     iconTheme.setAttribute("data-lucide",theme === "light" ? "moon" : "sun" ) 
     lucide.createIcons(); 
 }
+ 
+
+const translations = {
+  Fr: {
+    title: "EXPERIENCES PROFESSIONNELLES",
+  },
+  En: {
+    title: "PROFESSIONNAL EXPERIENCES",
+  }
+}
   function setLang(lang) {
     localStorage.setItem("lang", lang)
     location.reload()
 }
- 
+function applyLang(lang) {
+  document.getElementById("EXPERIENCES PROFESSIONNELLES").textContent =
+    translations[Fr]
 
+  document.getElementById("PROFESSIONNAL EXPERIENCES").textContent =
+    translations[En]
 
-
-
+const savedLang = localStorage.getItem("lang") || "fr"
+applyLang(savedLang)
 
 
 (function init(){
