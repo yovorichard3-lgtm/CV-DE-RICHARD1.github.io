@@ -60,7 +60,29 @@
   <i data-lucide="moon"></i>
 </button>
 
+<script>
+import { createIcons, moon } from 'lucide';
 
+createIcons({
+  icons: {
+    moon
+  }
+});
+</script>
+
+<i data-lucide="moon"></i>  
+
+<script>
+import { createIcons, sun } from 'lucide';
+
+createIcons({
+  icons: {
+    sun
+  }
+});
+</script>
+
+<i data-lucide="sun"></i>  
 
         
         
@@ -69,32 +91,11 @@
 
   
   
-  <script src="https://unpkg.com/lucide@latest"></script>  
-    <script src="app.js"></script>
+  
+     <script src="app.js"></script>
    
     <script src="https://unpkg.com/lucide@latest"></script>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
 
-  lucide.createIcons();
-
-  const button = document.getElementById("themeToggle");
-
-  button.addEventListener("click", function() {
-
-    document.body.classList.toggle("dark-mode");
-
-    if (document.body.classList.contains("dark-mode")) {
-      button.innerHTML = '<i data-lucide="sun"></i>';
-    } else {
-      button.innerHTML = '<i data-lucide="moon"></i>';
-    }
-
-    lucide.createIcons();
-  });
-
-});
-</script>
     </body>
 </html>

@@ -63,12 +63,4 @@ body{
 img {
   border-radius: 1Opx;
   border: 2px solid black;
-
-  .dark-mode {
-  background-color: #111;
-  color: white;
-}
-
-.dark-mode a {
-  color: #4da6ff;
 }
