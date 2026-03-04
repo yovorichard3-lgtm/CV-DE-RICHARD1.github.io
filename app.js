@@ -26,3 +26,10 @@ function applyTheme(theme) {
 
 }) ( )
 
+import {moon, sun} from "lucide";
+createIcons({
+    Icons:{
+        moon,
+        sun,
+    }
+});
