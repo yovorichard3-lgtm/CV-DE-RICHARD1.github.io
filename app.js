@@ -1,10 +1,14 @@
+//fonction = truc qui est en bas (dessous)
 function applyTheme(theme) {
     document.documentElement.classList.toggle("theme-light", theme === "light")
     const iconTheme = document.querySelector("#icon-theme")
     iconTheme.setAttribute("data-lucide",theme === "light" ? "moon" : "sun" ) 
     lucide.createIcons(); 
 }
-  
+  function setLang(lang) {
+    localStorage.setItem("lang", lang)
+    location.reload()
+}
  
 
 
