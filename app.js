@@ -25,4 +25,3 @@ function applyTheme(theme) {
     })
 
 }) ( )
-lucide.createIcons();
