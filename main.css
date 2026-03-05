@@ -26,8 +26,8 @@ body {
 }
 img {
   float: right;
-  margin-right: 10px; /* Optionnel : ajoute un peu d'espace à droite */
-  margin-bottom: 10px; /* Optionnel : ajoute un peu d'espace en bas */
+  margin-right: 15px; 
+  margin-bottom: 15px;
 }
 
 
