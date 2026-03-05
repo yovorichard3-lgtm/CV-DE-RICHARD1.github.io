@@ -4,7 +4,6 @@
   --btn:white;
   --btnbg:rgb(12, 208, 208);
   --btb:rgb(99, 10, 76);
-  --color:#08e6f6; 
   --color:#e00cb2; 
 }
 :root.theme-light{
@@ -13,14 +12,12 @@
   --btn:black;
   --btb:rgb(179, 12, 137);
   --btnbg:rgb(12, 208, 208);
-  --color:#e00cb2;
    --color:#08e6f6;
 }
 
   
 a {
-  color:#08e6f6;
-  color: #e00cb2;
+  color:var(--color);
 }
 
 
