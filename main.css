@@ -24,6 +24,12 @@ body {
   color:var(--text);
   font-size: 1rem;
 }
+img {
+  float: right;
+  margin-right: 10px; /* Optionnel : ajoute un peu d'espace à droite */
+  margin-bottom: 10px; /* Optionnel : ajoute un peu d'espace en bas */
+}
+
 
 button  {
   width: 10em;
@@ -50,11 +56,6 @@ img {
   background-image: url('1760983154987.jpg');
   background-size:cover; 
   background-position: right; 
-}
-img {
-  float: left;
-  margin-right: 10px; /* Optionnel : ajoute un peu d'espace à droite */
-  margin-bottom: 10px; /* Optionnel : ajoute un peu d'espace en bas */
 }
 
 
