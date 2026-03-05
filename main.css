@@ -50,7 +50,8 @@ img {
   background-image: url('1760983154987.jpg');
   background-size:cover; 
   background-position: right; 
-  .gauche{
+
+  .left{
   float: left;
 }
 }
