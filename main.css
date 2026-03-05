@@ -4,6 +4,8 @@
   --btn:white;
   --btnbg:rgb(12, 208, 208);
   --btb:rgb(99, 10, 76);
+  --color:#c25ead;
+  --color:#dea7d0;
 
 }
 :root.theme-light{
@@ -12,13 +14,16 @@
   --btn:black;
   --btb:rgb(179, 12, 137);
   --btnbg:rgb(12, 208, 208);
+  --color:#dea7d0;
+  --color:#c25ead;
 }
 .container{
   width: 90%;
   max-width: 1200px;
   margin: auto;
 }
-
+a {color:#c25ead;
+ color: #dea7d0;}
 
 
 
@@ -55,8 +60,6 @@ img {
   background-image: url('1760983154987.jpg');
   background-size:cover; 
   background-position: right; 
-    max-width: 100%;
-  height: auto;
 }
 
 
