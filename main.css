@@ -4,8 +4,8 @@
   --btn:white;
   --btnbg:rgb(12, 208, 208);
   --btb:rgb(99, 10, 76);
-  --color:#e00cb2;
   --color:#dceb11;
+  --color:#e00cb2;
 
 }
 :root.theme-light{
