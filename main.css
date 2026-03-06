@@ -38,6 +38,22 @@ h4 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-transform: uppercase;
 }
+button {
+  width: 10em;
+  height: 5ex;
+  background-color: var(--btn);
+  color: var(--text);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--btb);
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--btnbg);
+}
 
 h1{
   font-family: "Roboto", sans-serif;
