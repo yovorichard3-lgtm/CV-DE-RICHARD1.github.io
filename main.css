@@ -1,13 +1,18 @@
 :root{
   --bg:black;
+  --bg-saide:#444;
   --text:white;
   --btn:white;
   --btnbg:rgb(12, 208, 208);
   --btb:rgb(99, 10, 76);
   --color:#e00cb2; 
+  
+  --margin-size:30px;
 }
+
 :root.theme-light{
   --bg:white;
+  --bg-aside:#ccc;
   --text:black;
   --btn:black;
   --btb:rgb(179, 12, 137);
