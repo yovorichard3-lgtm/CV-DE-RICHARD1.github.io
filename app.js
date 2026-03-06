@@ -25,9 +25,7 @@ const translations ={
         sd:"Scanner des produits et ranger les rayons",
         dpb:"Diplomé en BAC1 général",
         es:"Actuellement: 6e Secondaire",
-        ei:"Belgique",
-        date:"janvier ",
-        date:"decembre"
+       
 
 
 
@@ -59,9 +57,7 @@ const translations ={
         sd:"Scan products and tidy shelves",
         dpb:"Graduated in general BAC1",
         es:"Currently: Secondary 6",
-        ei:"Belgium",
-        date:"january",
-       date:"december"
+    
 
 
 
