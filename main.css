@@ -199,6 +199,12 @@ section.work-experiences > .experience:not(:last-child) {
   justify-content: space-between;
 }
 
+.not-mobile{
+    display: block;
+  }
+.not-desktop{
+  display: none;
+}
 @media (max-width:800px) 
 {
   main {
@@ -207,6 +213,26 @@ section.work-experiences > .experience:not(:last-child) {
   main > .content,
   main > aside {
   width: 100vw;
-
   }
+  .not-mobile{
+    display: none;
+  }
+  .not-desktop{
+    display: block;
+  }
+  .optionsbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  figure.profile {
+    width: 150px;
+    height: 150px;
+  }
+  
+}
+footer {
+  background-color: var(--bg-aside);
+  width: 100vw;
+  padding: 20px;
 }
