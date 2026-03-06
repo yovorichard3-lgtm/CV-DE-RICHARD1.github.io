@@ -213,6 +213,7 @@ section.work-experiences > .experience:not(:last-child) {
   main > .content,
   main > aside {
   width: 100vw;
+  min-height: unset;
   }
   .not-mobile{
     display: none;
@@ -229,6 +230,7 @@ section.work-experiences > .experience:not(:last-child) {
     width: 150px;
     height: 150px;
   }
+
   
 }
 footer {
