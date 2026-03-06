@@ -14,7 +14,7 @@ const translations ={
         sf:"Sport : Football",
         mc:"Musique et culture",
         cp:"COMPETENCES",
-        tsp:"Travailleur, serieux,polyvalent",
+        tsp:"Accueil, Conseil et orientation des clients,Vente et promotion des produits,Gestion de la caisse et des paiements",
         ps:"PHOTO SIMPLE",
     },
     en:{
@@ -32,7 +32,7 @@ const translations ={
         sf:"Sport: Soccer",
         mc:"Music and culture",
         cp:"SKILLS",
-        tsp:"Hardworking, serious, versatile",
+        tsp:"Reception, Customer advice and guidance, Product sales and promotion, Cash and payment management",
         ps:"SIMPLE PHOTO",
 
         
