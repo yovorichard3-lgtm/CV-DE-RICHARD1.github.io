@@ -2,7 +2,7 @@ const translations ={
     fr:{
         tittle: "CV JOB ETUDIANT",
         desc: "EXPERIENCES PROFESSIONNELLES",
-        btn:"Débaler les stoks ",
+        btn:"Débaler les stocks ",
         msg:"Cassier",
         pt:"LANGUES PARLEES",
         fr:"Français(courant et écrit)",
