@@ -40,21 +40,20 @@ h4 {
 }
 
 
-button:hover {
-  background-color: var(--btnbg);
-}
-
-h1{
+h1 {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 li {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
+button:hover {
+  background-color: var(--btnbg);
+}
+
 
 *{
   box-sizing: border-box;
@@ -127,7 +126,9 @@ figure.profile > img{
 .optionbar button:not(:first-child) {
   margin-left: 10px;
 }
-
+figure.profile >img {
+  max-width: 100%;
+}
 
 figure.profile {
   width: 260px;
@@ -165,10 +166,6 @@ section.work-experiences > .experience:not(:last-child) {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-figure.profile >img {
-  max-width: 100%;
 }
 
 
