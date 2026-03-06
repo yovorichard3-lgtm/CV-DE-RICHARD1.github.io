@@ -230,6 +230,9 @@ section.work-experiences > .experience:not(:last-child) {
     width: 150px;
     height: 150px;
   }
+   a {
+    padding: 10px;
+   }
 
   
 }
