@@ -203,10 +203,10 @@ section.work-experiences > .experience:not(:last-child) {
 {
   main {
   flex-direction: column;
-}
-main > .content,
-main > aside {
-  width: 1000vw;
-  
-}
+  }
+  main > .content,
+  main > aside {
+  width: 100vw;
+
+  }
 }
