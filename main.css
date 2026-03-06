@@ -139,9 +139,7 @@ figure.profile > img{
   margin-left: 10px;
 }
 
-button:hover {
-  background-color:var(--btnbg);
-}
+
 figure.profile {
   width: 260px;
   height: 260px;
@@ -152,6 +150,13 @@ figure.profile {
   object-fit: cover;
   object-position: center center;
 }
+button:hover {
+  background-color:var(--btnbg);
+}
+header {
+  margin-bottom: var(--margin-size);
+}
+
 figure.profile >img {
   max-width: 100%;
 }
