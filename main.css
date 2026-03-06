@@ -112,6 +112,25 @@ profile-picture {
   background-size: cover;
   background-position: center center;
 }
+figure.profile > img{
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.optionbar button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 button:hover {
   background-color:var(--btnbg);
 }
