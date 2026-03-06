@@ -198,3 +198,15 @@ section.work-experiences > .experience:not(:last-child) {
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media (max-width:800px) 
+{
+  main {
+  flex-direction: column;
+}
+main > .content,
+main > aside {
+  width: 1000vw;
+  
+}
+}
