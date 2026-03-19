@@ -72,7 +72,7 @@ const translations ={
         
     },
     nld:{
-        title:"CV van studentenjob"
+        title:"CV van studentenjob",
     }
     
 }
